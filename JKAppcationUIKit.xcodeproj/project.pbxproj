@@ -25,6 +25,8 @@
 		AB0A82921C23FC5E00EFF674 /* YNModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0A828E1C23FC5E00EFF674 /* YNModel.m */; };
 		AB0A82931C23FC5E00EFF674 /* YNParserObject.h in Headers */ = {isa = PBXBuildFile; fileRef = AB0A828F1C23FC5E00EFF674 /* YNParserObject.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		AB0A82941C23FC5E00EFF674 /* YNParserObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0A82901C23FC5E00EFF674 /* YNParserObject.m */; };
+		FA4D2A6D1D0E7AC900372BFD /* YNIMage+category.h in Headers */ = {isa = PBXBuildFile; fileRef = FA4D2A6B1D0E7AC900372BFD /* YNIMage+category.h */; };
+		FA4D2A6E1D0E7AC900372BFD /* YNIMage+category.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4D2A6C1D0E7AC900372BFD /* YNIMage+category.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		AB0A828E1C23FC5E00EFF674 /* YNModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YNModel.m; sourceTree = "<group>"; };
 		AB0A828F1C23FC5E00EFF674 /* YNParserObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YNParserObject.h; sourceTree = "<group>"; };
 		AB0A82901C23FC5E00EFF674 /* YNParserObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YNParserObject.m; sourceTree = "<group>"; };
+		FA4D2A6B1D0E7AC900372BFD /* YNIMage+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YNIMage+category.h"; sourceTree = "<group>"; };
+		FA4D2A6C1D0E7AC900372BFD /* YNIMage+category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YNIMage+category.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +124,8 @@
 				AB0A82001C23DC3800EFF674 /* YNView.m */,
 				AB0A81DE1C23DBD400EFF674 /* JKAppcationUIKit.h */,
 				AB0A81E01C23DBD400EFF674 /* Info.plist */,
+				FA4D2A6B1D0E7AC900372BFD /* YNIMage+category.h */,
+				FA4D2A6C1D0E7AC900372BFD /* YNIMage+category.m */,
 			);
 			path = JKAppcationUIKit;
 			sourceTree = "<group>";
@@ -145,6 +151,7 @@
 				AB0A82081C23DC3800EFF674 /* YNKitHeader.h in Headers */,
 				AB0A82011C23DC3800EFF674 /* YNBarButtonItem.h in Headers */,
 				AB0A82031C23DC3800EFF674 /* YNButton.h in Headers */,
+				FA4D2A6D1D0E7AC900372BFD /* YNIMage+category.h in Headers */,
 				AB0A82071C23DC3800EFF674 /* YNKit.h in Headers */,
 				AB0A82911C23FC5E00EFF674 /* YNModel.h in Headers */,
 				AB0A82931C23FC5E00EFF674 /* YNParserObject.h in Headers */,
@@ -248,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA4D2A6E1D0E7AC900372BFD /* YNIMage+category.m in Sources */,
 				AB0A82041C23DC3800EFF674 /* YNButton.m in Sources */,
 				AB0A82021C23DC3800EFF674 /* YNBarButtonItem.m in Sources */,
 				AB0A82921C23FC5E00EFF674 /* YNModel.m in Sources */,
@@ -440,6 +448,7 @@
 				AB0A81F11C23DBD400EFF674 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB0A81F21C23DBD400EFF674 /* Build configuration list for PBXNativeTarget "JKAppcationUIKitTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +457,7 @@
 				AB0A81F41C23DBD400EFF674 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
